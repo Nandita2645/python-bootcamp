@@ -1,5 +1,5 @@
-x,y=[int(x) for x in input().split()]
-print("%d+%d=%d"%(x,y,(x+y)))
-Output
-2 3
-2+3=5
+a,b,c,d,e=map(int,input().split())
+f=a+b+c+d+e
+print("Sum of all the numbers is=%d"%(f))
+2 4 9 1 5
+Sum of all the numbers is=21
