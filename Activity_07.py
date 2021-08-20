@@ -1,5 +1,6 @@
-x,y=[int(x) for x in input().split()]
-print("%d+%d=%d"%(x,y,(x+y)))
-output
- 2 3
-2+3=5
+print("enter two numbers: ")
+x=input().split()
+sum=0
+for i in x:
+    sum=sum+int(i)
+print(f"{x[0]}+{x[1]}={sum}")
