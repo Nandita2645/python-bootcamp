@@ -5,7 +5,7 @@ def cond(a,b,c):
     if a>b and a>c:
         print(f" %d is the greatest number among {a},{b} and {c}"%a)
         return a
-    elif b>a and b>c:        
+    elif b>c:        
         print(f" %d is the greatest number among {a},{b} and {c}"%b)
         return b
     else:        
